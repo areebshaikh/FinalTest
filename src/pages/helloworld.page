@@ -1,0 +1,6 @@
+<apex:page Controller="HelloWorldController">
+<apex:form >
+  <apex:Outputlink value="http://deloitte.com" > Search </apex:OutputLink>
+<!-- Subject="{!account.id}">Account Areeb </apex:detail> -->
+  </apex:form>
+</apex:page>

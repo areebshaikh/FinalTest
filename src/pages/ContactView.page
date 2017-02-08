@@ -1,0 +1,4 @@
+<apex:page standardController="Contact">
+  <h1>ContactView</h1>
+<apex:detail subject="{!Contact.Id}">{!Contact.firstName} {!Contact.lastName} {!Contact.Owner.EMail} </apex:detail>
+</apex:page>
